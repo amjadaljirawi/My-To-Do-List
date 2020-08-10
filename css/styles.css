@@ -1,0 +1,67 @@
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-image: url("../img/background-img-M104.jpg") ;
+    width: auto;
+    
+
+}
+header{
+    width: auto;
+    color: black;
+    padding: 60px;
+    text-align: center;
+    background: darkslategray;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    width: auto;
+    color: black;
+    padding: 60px;
+    text-align: center;
+    background: darkslategray;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.formClass{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* #ToDoForm{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+} */
+#myTable{
+    float: right;
+    background-color: blue;
+    width: auto;
+    
+}
+#TableSection{
+    width: 500px;
+    background-color: dodgerblue;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    float: right ;
+}
+/* #formSection{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+} */

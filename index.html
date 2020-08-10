@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>My To do list </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            My To do list
+        </nav>
+    </header>
+    <main>
+        <section id="formSection">
+            
+            <form class="formClass" id="ToDoForm">
+                <input style="display: inline;" type="text" id="Task" name="Task" placeholder="Task">
+                <input style="display: inline;" type="date" id="date" name="date" placeholder="date">
+                <select id="Urgency" name="Urgency" placeholder="Urgency">
+                    <option value="low">low</option>
+                    <option value="high">high</option>
+                    <option value="meduim">meduim</option>
+                </select>
+
+                <button type="button" onclick="myFunction()">Submit</button>
+            </form>
+
+
+        </section>
+        <section id="TableSection">
+            <table border="1" id="myTable">
+                <tr>
+                    <th>
+                        Task
+                    </th>
+                    <th>
+                        Date
+                    </th>
+                    <th>
+                        Urgency
+                    </th>
+                    <th>
+                        Done
+                    </th>
+                </tr>
+                <tr id="TableRow">
+
+                </tr>
+
+            </table>
+            <button type="button" onclick="DeleteMyFunction()">Clear</button>
+
+        </section>
+
+    </main>
+    <footer>
+        <nav></nav>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
